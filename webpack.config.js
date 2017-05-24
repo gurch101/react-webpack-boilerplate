@@ -17,6 +17,12 @@ module.exports = {
             },
             {
                 test: /\.jsx?/,
+                loader: "eslint-loader",
+                exclude: /node_modules/,
+                enforce: "pre"
+            },
+            {
+                test: /\.jsx?/,
                 loader: "babel-loader",
                 exclude: /node_modules/,
                 query: {

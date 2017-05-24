@@ -1,2 +1,2 @@
-import "./js/index.js";
+import "./js/index";
 import "./less/index.less";

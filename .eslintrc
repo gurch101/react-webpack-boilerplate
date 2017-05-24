@@ -1,0 +1,16 @@
+{
+    "extends": "airbnb",
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "no-console": ["error", {"allow": ["error"]}],
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "quotes": ["error", "double"],
+        "keyword-spacing": ["error", {"overrides": {"if": {"after": false}}}],
+        "comma-dangle": ["error", {"functions": "never"}],
+        "max-len": ["error", 120],
+        "react/jsx-filename-extension": ["off"]
+    }
+}
