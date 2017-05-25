@@ -19,7 +19,10 @@ module.exports = {
                 test: /\.jsx?/,
                 loader: "eslint-loader",
                 exclude: /node_modules/,
-                enforce: "pre"
+                enforce: "pre",
+                options: {
+                    emitWarning: true
+                }
             },
             {
                 test: /\.jsx?/,
