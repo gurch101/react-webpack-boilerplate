@@ -13,4 +13,5 @@ clone this repo and run `npm install`
 npm run build // build with webpack
 npm run watch // watch for any changes
 npm start // start webpack dev server with live reloading
+npm test // run tests
 ```
